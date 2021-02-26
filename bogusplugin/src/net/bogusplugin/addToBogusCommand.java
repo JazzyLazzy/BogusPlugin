@@ -1,0 +1,21 @@
+package net.bogusplugin;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+public class addToBogusCommand implements CommandExecutor {
+
+	@Override
+	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+		if (sender instanceof Player) {
+			PlayerEventList player = new PlayerEventList((Player)sender);
+			
+		}
+		return false;
+	}
+
+	
+	
+}

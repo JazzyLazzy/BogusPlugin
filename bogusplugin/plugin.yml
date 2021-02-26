@@ -1,0 +1,20 @@
+name: BogusPlugin
+main: net.bogusplugin.BogusPlugin
+version: 1.0
+api-version: 1.13
+commands:
+   bogus:
+      description: yeet
+      usage: /bogus
+   nobogus:
+      description: noyeet
+      usage: /nobogus
+   startbogusevent:
+      description: event
+      usage: /start
+permissions:
+   BogusPlugin.startbogusevent:
+      default: false
+      
+   
+      
